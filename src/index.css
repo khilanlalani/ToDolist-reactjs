@@ -1,0 +1,145 @@
+
+.total{
+  background-image: linear-gradient(#ff4000,#bf4040);
+ 
+}
+
+
+
+.heading {
+  text-align: center;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: inherit ;
+  /* margin-top: 50px; */
+  margin-bottom: 30px;
+  
+  color:whitesmoke;
+ 
+
+}
+
+.show {
+
+text-align: center;
+margin-left: 520px;
+margin-top: 10px;
+margin-bottom: 50px;
+font-size: 30px;
+width:25%;
+height:82vh ;
+background-color:lightgray;
+box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+word-wrap: break-word;
+
+}
+input{
+  margin-top:30px ;
+  margin-right:9px ;
+  text-align: center ;
+  height: 30px;
+  top:10px;
+   border:none;
+  background:transparent;
+  font-size: 20px;
+  font-weight:500;
+  width: 60% ;
+  border-bottom: 2px solid black;
+  outline:none; 
+
+}
+/* button{
+  min-height:40px;
+  width:40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color:#fff;
+  font-size:40px;
+  border:none;
+  outline:none;
+  margin-left: 20px;
+  padding: 10px 15px;
+ margin-left: 30px;
+font-size: 24px;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #fff;
+background-color: #4CAF50;
+border: none;
+border-radius: 20px;
+box-shadow: 0 9px #999
+  
+
+} */
+/* .display{
+  margin-top:20px;   
+}
+.design{
+  width: auto ;
+  border: 2px solid rgb(200,100,100);
+  margin: 10px ;
+} */
+p{
+  font-size: xx-large;
+  font-family: sans-serif;
+   font-weight: 400;
+}
+.todo_style{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items:center;
+}
+.todo_style .deleteIcon{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  background-color:rgb(250,200,200);
+  border-radius: 50%;
+  padding: 5px;
+  color:brown;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+.todo_style .deleteIcon:hover{
+  background-color:transparent;
+  color: crimson;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+}
+ol{
+  margin-top: 30px;
+}
+ol li {
+  
+  padding-left: 0px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 300;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(190, 20,30 );
+  text-transform: capitalize;
+  list-style: none;
+  margin-left: 20 px;
+  word-break: break-all;
+}
+
+/* .li-list{
+  width: 300px;
+  height: 400px;
+  overflow: auto;
+} */
+.li-list{
+  overflow:auto;
+  height: 310px;
+}
+.bottom{
+  margin-top: 15px;
+}
